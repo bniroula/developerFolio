@@ -27,7 +27,7 @@ const greeting = {
     So, if you're looking for a software engineer who's passionate about code and who thinks outside the box 📦 (because let's face it, the box is probably just another bug 🐛 waiting to happen), let's connect! I'm on the hunt for my next adventure in the tech world, and your company might just be the setting for the next chapter.`
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1tlYpm_CujptvDFsltWVSwgNUg7LO-iYo/view?usp=share_link", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1kle5-UGvXUsxt3-StHkVAdAR8FfmQh4f/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,14 +46,32 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop robust and scalable backend systems"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Enhance and optimize Frontend experience "),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Optimize application performance with cutting-edge web technologies"
+    ),
+    emoji(
+      "⚡ Architect and deploy serverless cloud solutions for high availability"
+    ),
+    emoji(
+      "⚡ Implement seamless data migration and management strategies"
+    ),
+    emoji(
+      "⚡ Develop event-driven architectures to enhance application responsiveness"
+    ),
+    emoji(
+      "⚡ Integrate and manage APIs for expansive system interoperability"
+    ),
+    emoji(
+      "⚡ Foster secure software development practices across all phases of the SDLC"
+    ),
+    emoji(
+      "⚡  Debugging: Where I play detective in a mystery where I'm also the culprit"
     )
   ],
 
@@ -217,9 +235,9 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/hermes.jpeg"),
       projectName: "Project Hermes",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Engineered a traffic simulation using Python showcasing a 11% reduction in emissions and 4% increase in throughput via AI-driven traffic light optimization. Collaborated with Chicago Dept. of Transportation for real-world application planning.",
       footerLink: [
         {
           name: "Visit Website",
@@ -229,9 +247,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/iblink.png"),
       projectName: "iBlink",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Developed an eye-controlled typing system with OpenCV, translating eye blinks to Morse code for text input, enhancing accessibility for users with limited mobility.",
       footerLink: [
         {
           name: "Github",
@@ -250,52 +268,21 @@ const achievementSection = {
   title: emoji("Certifications"),
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "AWS Solutions Architect Associate",
+      image: require("./assets/images/aws_associate.png"),
+      imageAlt: "AWS Solutions Architect Associate Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credly.com/badges/155a921d-6d21-42d1-96a0-9efc05bca2e3"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Salesforce Certified AI Associate",
+      image: require("./assets/images/salesforce.png"),
+      imageAlt: "Salesforce Certified AI Associate Logo",
+      footerLink:[]
     }
   ],
   display: true // Set false to hide this section, defaults to true
