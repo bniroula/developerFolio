@@ -21,12 +21,13 @@ const illustration = {
 
 const greeting = {
   username: "Bishal Niroula",
-  title: "Hi all, I'm Bishal",
+  title: "Hello World! I'm Bishal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    `I juggle code, caffeine, and creativity to craft software solutions that not only work but dazzle.🚀 
+    So, if you're looking for a software engineer who's passionate about code and who thinks outside the box 📦 (because let's face it, the box is probably just another bug 🐛 waiting to happen), let's connect! I'm on the hunt for my next adventure in the tech world, and your company might just be the setting for the next chapter.`
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1WleJ0C5uuvqiUS-c0SKNQurF-qujwWfX/view?usp=share_link", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1tlYpm_CujptvDFsltWVSwgNUg7LO-iYo/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -118,24 +119,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Troy University",
+      logo: require("./assets/images/troy_logo.jpg"),
+      subHeaders: ["Bachelor of Science in Computer Science","Minors: Physics, Mathematics"],
+      duration: "January 2017 - December 2020",
+      desc: "Graduated Summa Cum Laude",
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -170,10 +159,11 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "July 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Engineered an event-driven notification system enabling user subscriptions to price/inventory changes using AWS Serverless tools (Lambda, SNS, SQS, DynamoDB) and Nodejs (serverless, localstack) increasing the sales by $30 millions in a quarter.",
+        "Architected and implemented a Migration service, successfully managing the ETL of millions of data rows across production DynamoDB tables, ensuring zero downtime and enhancing data reliability.",
+        "Spearheaded the development of a backend system utilizing AWS serverless tools to seamlessly ingest and process millions of Kafka messages within the booking flow, facilitating the integration of add-on offerings during initial bookings and significantly boosting add-on sales while enhancing system scalability and performance."
       ]
     },
     {
@@ -181,10 +171,10 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "Feb 2021 – July 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Collaborated with client engineers from the biggest home improvement store to build a scalable credit card payment system, facilitating secure transaction processing and financial data management, significantly improving payment efficiency.",
+        "Designed and implemented an innovative Identity service ensuring secure storage and encryption of user tokens, with functionalities including token validation, expiration, and prevention of token reuse, enhancing system security and user data protection."
       ]
     },
     {
@@ -192,14 +182,23 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "June 2020 – Aug 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked alongside other interns and full-time engineers using Agile and Scrum methodologies to enhance existing internal website and develop PoC for future developments.",
+      descBullets:[
+        "Implemented critical front-end features, such as image cropping and edit locking, enhancing the usability of Slalom's PEM website for 13000 internal users.",
+        "Developed a Headless Drupal and React prototype to decouple CMS, improving site performance and flexibility for future development."
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Alfa Insurance",
       companylogo: require("./assets/images/Insurance-alfa.png"),
       date: "Jun 2019 – July 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked in a team with rotating responsibilites to build a Chatbot that is a first point of contact for insured after an incident.",
+      descBullets:[
+        "Designed and deployed a Chatbot for filing First Notices of Loss, streamlining claim processes and enhancing customer experience through intuitive interactions.",
+        "Leveraged Microsoft's Language Understanding and Sentiment Analysis to refine Chatbot interactions, achieving a 50% increase in user engagement and satisfaction.",
+        "Halved the notice filing time through Chatbot integration, significantly speeding up the claim initiation process during critical tests."
+      ]
     },
   ]
 };
