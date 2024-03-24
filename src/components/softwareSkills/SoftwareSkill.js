@@ -21,7 +21,7 @@ export default function SoftwareSkill() {
                 }
                 {
                   skills.icon &&
-                  <img height="40rem" src={skills.icon}/>
+                  <img height="40rem" src={skills.icon} alt={skills.skillName}/>
                 }
                 <p>{skills.skillName}</p>
               </li>
