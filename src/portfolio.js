@@ -1,7 +1,8 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-
+import kafkaIcon from './assets/images/kafka.png';
+import graphql from './assets/images/graphql.webp';
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -71,6 +72,9 @@ const skillsSection = {
       "⚡ Foster secure software development practices across all phases of the SDLC"
     ),
     emoji(
+      "⚡  Build resilient microservices that communicate efficiently across different platforms"
+    ),
+    emoji(
       "⚡  Debugging: Where I play detective in a mystery where I'm also the culprit"
     )
   ],
@@ -126,6 +130,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "drupal",
       fontAwesomeClassname: "fab fa-drupal"
+    },
+    {
+      skillName: "kafka",
+      icon:kafkaIcon
+    },
+    {
+      skillName: "graphql",
+      icon:graphql
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -191,7 +203,7 @@ const workExperiences = {
       date: "Feb 2021 – July 2022",
       desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
       descBullets: [
-        "Collaborated with client engineers from the biggest home improvement store to build a scalable credit card payment system, facilitating secure transaction processing and financial data management, significantly improving payment efficiency.",
+        "Collaborated with client engineers from the biggest home improvement store to build a scalable credit card payment system using Microservices Architecture, facilitating secure transaction processing and financial data management, significantly improving payment efficiency.",
         "Designed and implemented an innovative Identity service ensuring secure storage and encryption of user tokens, with functionalities including token validation, expiration, and prevention of token reuse, enhancing system security and user data protection."
       ]
     },

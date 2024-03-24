@@ -20,7 +20,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-        <>
+        <div key={i}>
           <li
             key={i}
             className={isDark ? "subTitle dark-mode-text" : "subTitle"}
@@ -29,7 +29,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
             
           </li>
           <br></br>
-          </>
+          </div>
         ))
       : null;
   };

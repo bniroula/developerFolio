@@ -39,13 +39,14 @@ export default function EducationCard({school}) {
 
             <div className="education-text-details">
 
-              {school.subHeaders.map(subHeader=>(
+              {school.subHeaders.map((subHeader,_i)=>(
                 <h5
                 className={
                   isDark
                     ? "dark-mode education-text-subHeader"
                     : "education-text-subHeader"
                 }
+                key={_i}
               >
                 {subHeader}
               </h5>
