@@ -3,6 +3,8 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 import kafkaIcon from './assets/images/kafka.png';
 import graphql from './assets/images/graphql.webp';
+import splunk from './assets/images/splunk.png';
+import elasticSearch from './assets/images/elastic_search.png';
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -47,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO LOVES TO EXPLORE NEW TECH",
   skills: [
     emoji(
       "⚡ Develop robust and scalable backend systems"
@@ -138,6 +140,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "graphql",
       icon:graphql
+    },
+    {
+      skillName: "splunk",
+      icon: splunk
+    },
+    {
+      skillName:"elasticSearch",
+      icon: elasticSearch
     }
   ],
   display: true // Set false to hide this section, defaults to true
