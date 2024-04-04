@@ -30,7 +30,7 @@ const greeting = {
     So, if you're looking for a software engineer who's passionate about code and who thinks outside the box 📦 (because let's face it, the box is probably just another bug 🐛 waiting to happen), let's connect! I'm on the hunt for my next adventure in the tech world, and your company might just be the setting for the next chapter.`
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1kle5-UGvXUsxt3-StHkVAdAR8FfmQh4f/view", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1h7rVy9Y_shmjxkImYBz_CkZZ70Ri7eQM/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
