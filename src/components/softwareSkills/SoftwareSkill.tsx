@@ -17,11 +17,12 @@ export default function SoftwareSkill() {
                 name={skills.skillName}
               >
                 {
-                  skills.fontAwesomeClassname &&
-                  <i className={skills.fontAwesomeClassname}></i>
+                  skills.fontAwesomeClassname ? (
+                    <i className={skills.fontAwesomeClassname}></i>
+                  ) : skills.icon ? (
+                    <img src={skills.icon} alt={skills.skillName} style={{width: '50px', height: '50px'}} />
+                  ) : null
                 }
-                  skills.icon &&
-                  <img height="40rem" src={skills.icon} alt={skills.skillName}/>
                 <p>{skills.skillName}</p>
               </li>
             );
