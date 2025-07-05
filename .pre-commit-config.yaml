@@ -3,6 +3,6 @@ repos:
   rev: "v3.0.0-alpha.4" # Use the sha or tag you want to point at
   hooks:
     - id: prettier
-      files: ".*.(json|js|css)"
+      files: ".*.(json|js|css|ts|tsx)"
 
 
