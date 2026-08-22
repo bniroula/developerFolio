@@ -25,10 +25,11 @@ const illustration = {
 
 const greeting = {
   username: "Bishal Niroula",
-  title: "Hello World! I'm Bishal",
+  title: "Hello, I'm Bishal.",
   subTitle: emoji(
-    `I juggle code, caffeine, and creativity to craft software solutions that not only work but dazzle.🚀
-    So, if you're looking for a software engineer who's passionate about code and who thinks outside the box 📦 (because let's face it, the box is probably just another bug 🐛 waiting to happen), let's connect! I'm on the hunt for my next adventure in the tech world, and your company might just be the setting for the next chapter.`
+    `Hi, I'm Bishal. I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀
+    Most of my bugs are mine to begin with, which I've made peace with. 🐛
+    Open to next hard problem!`
   ),
   resumeLink:
   "https://drive.google.com/file/d/1h7rVy9Y_shmjxkImYBz_CkZZ70Ri7eQM/view", // Set to empty to hide the button
@@ -78,7 +79,7 @@ const skillsSection = {
       "⚡  Build resilient microservices that communicate efficiently across different platforms"
     ),
     emoji(
-      "⚡  Debugging: Where I play detective in a mystery where I'm also the culprit"
+      "⚡  Debug like a detective in a mystery where I'm also the culprit"
     )
   ],
 
