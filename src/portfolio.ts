@@ -87,11 +87,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -99,11 +99,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
@@ -111,43 +111,43 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "java",
+      skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "drupal",
+      skillName: "Drupal",
       fontAwesomeClassname: "fab fa-drupal"
     },
     {
-      skillName: "kafka",
-      icon:kafkaIcon
+      skillName: "Kafka",
+      icon: kafkaIcon
     },
     {
-      skillName: "graphql",
-      icon:graphql
+      skillName: "GraphQL",
+      icon: graphql
     },
     {
-      skillName: "splunk",
+      skillName: "Splunk",
       icon: splunk
     },
     {
-      skillName:"elasticSearch",
+      skillName: "Elasticsearch",
       icon: elasticSearch
     }
   ],
@@ -202,9 +202,9 @@ const workExperiences = {
       date: "July 2022 – Present",
       desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
       descBullets: [
-        "Currently delivering end-to-end features (backend & frontend) for a large-scale, multi-tenant state-wide court case management system, engineering high-stakes workflows like judicial case lifecycle management, firearms and marriage license application lifecycle, vital records, etc with real-time integrations with multiple external government systems.",
+        "Currently delivering end-to-end features (backend & frontend) for a large-scale, multi-tenant, statewide court case management system, engineering high-stakes workflows like judicial case lifecycle management, firearms and marriage license application lifecycles, and vital records, with real-time integrations to multiple external government systems.",
         "Contributed to core architectural decisions and system design, helping shape service boundaries, data model, multi-tenancy strategy, and defining how the platform integrates with cross-cutting modules including access & authorization, reporting, tenant management, document management, financial management and workflow orchestration.",
-        "Engineered an event-driven notification system enabling user subscriptions to price/inventory changes using AWS Serverless tools (Lambda, SNS, SQS, DynamoDB) and Nodejs (serverless, localstack) increasing the sales by $30 millions in a quarter.",
+        "Engineered an event-driven notification system enabling user subscriptions to price/inventory changes using AWS Serverless tools (Lambda, SNS, SQS, DynamoDB) and Node.js (Serverless Framework, LocalStack), increasing sales by $30 million in a quarter.",
         "Architected and implemented a Migration service, successfully managing the ETL of millions of data rows across production DynamoDB tables, ensuring zero downtime and enhancing data reliability.",
         "Spearheaded the development of a backend system utilizing AWS serverless tools to seamlessly ingest and process millions of Kafka messages within the booking flow, facilitating the integration of add-on offerings during initial bookings and significantly boosting add-on sales while enhancing system scalability and performance."
       ]
@@ -236,7 +236,7 @@ const workExperiences = {
       company: "Alfa Insurance",
       companylogo: require("./assets/images/Insurance-alfa.png"),
       date: "Jun 2019 – July 2019",
-      desc: "Worked in a team with rotating responsibilites to build a Chatbot that is a first point of contact for insured after an incident.",
+      desc: "Worked in a team with rotating responsibilities to build a Chatbot that is a first point of contact for policyholders after an incident.",
       descBullets:[
         "Designed and deployed a Chatbot for filing First Notices of Loss, streamlining claim processes and enhancing customer experience through intuitive interactions.",
         "Leveraged Microsoft's Language Understanding and Sentiment Analysis to refine Chatbot interactions, achieving a 50% increase in user engagement and satisfaction.",
@@ -262,7 +262,7 @@ const bigProjects = {
     {
       image: require("./assets/images/hermes.jpeg"),
       projectName: "Project Hermes",
-      projectDesc: "Engineered a traffic simulation using Python showcasing a 11% reduction in emissions and 4% increase in throughput via AI-driven traffic light optimization. Collaborated with Chicago Dept. of Transportation for real-world application planning.",
+      projectDesc: "Engineered a traffic simulation using Python showcasing an 11% reduction in emissions and 4% increase in throughput via AI-driven traffic light optimization. Collaborated with Chicago Dept. of Transportation for real-world application planning.",
       footerLink: [
         {
           name: "Visit Website",
