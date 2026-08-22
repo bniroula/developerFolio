@@ -27,7 +27,7 @@ const greeting = {
   username: "Bishal Niroula",
   title: "Hello World! I'm Bishal",
   subTitle: emoji(
-    `I juggle code, caffeine, and creativity to craft software solutions that not only work but dazzle.🚀 
+    `I juggle code, caffeine, and creativity to craft software solutions that not only work but dazzle.🚀
     So, if you're looking for a software engineer who's passionate about code and who thinks outside the box 📦 (because let's face it, the box is probably just another bug 🐛 waiting to happen), let's connect! I'm on the hunt for my next adventure in the tech world, and your company might just be the setting for the next chapter.`
   ),
   resumeLink:
@@ -172,7 +172,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -202,7 +202,8 @@ const workExperiences = {
       date: "July 2022 – Present",
       desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
       descBullets: [
-        "Currently delivering end-to-end features (backend & frontend) for a large-scale, multi-tenant, statewide court case management system, engineering high-stakes workflows like judicial case lifecycle management, firearms and marriage license application lifecycles, and vital records, with real-time integrations to multiple external government systems.",
+        "Currently delivering end-to-end features (backend & frontend) for a large-scale, multi-tenant, statewide court case management system.",
+        "Engineered high-stakes workflows including judicial case lifecycle management, firearms and marriage license application lifecycles, and vital records, with real-time integrations to multiple external government systems.",
         "Contributed to core architectural decisions and system design, helping shape service boundaries, data model, multi-tenancy strategy, and defining how the platform integrates with cross-cutting modules including access & authorization, reporting, tenant management, document management, financial management and workflow orchestration.",
         "Engineered an event-driven notification system enabling user subscriptions to price/inventory changes using AWS Serverless tools (Lambda, SNS, SQS, DynamoDB) and Node.js (Serverless Framework, LocalStack), increasing sales by $30 million in a quarter.",
         "Architected and implemented a Migration service, successfully managing the ETL of millions of data rows across production DynamoDB tables, ensuring zero downtime and enhancing data reliability.",
@@ -236,11 +237,11 @@ const workExperiences = {
       company: "Alfa Insurance",
       companylogo: require("./assets/images/Insurance-alfa.png"),
       date: "Jun 2019 – July 2019",
-      desc: "Worked in a team with rotating responsibilities to build a Chatbot that is a first point of contact for policyholders after an incident.",
+      desc: "Worked in a team with rotating responsibilities to build a chatbot that serves as the first point of contact for policyholders after an incident.",
       descBullets:[
-        "Designed and deployed a Chatbot for filing First Notices of Loss, streamlining claim processes and enhancing customer experience through intuitive interactions.",
-        "Leveraged Microsoft's Language Understanding and Sentiment Analysis to refine Chatbot interactions, achieving a 50% increase in user engagement and satisfaction.",
-        "Halved the notice filing time through Chatbot integration, significantly speeding up the claim initiation process during critical tests."
+        "Designed and deployed a chatbot for filing initial insurance claims, streamlining claim processes and enhancing customer experience through intuitive interactions.",
+        "Leveraged Microsoft's Language Understanding and Sentiment Analysis to refine chatbot interactions, achieving a 50% increase in user engagement and satisfaction.",
+        "Halved the claim filing time through chatbot integration, significantly speeding up the claim initiation process during critical tests."
       ]
     },
   ]
