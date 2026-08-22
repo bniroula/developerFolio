@@ -19,6 +19,18 @@
   color: $subTitle;
 }
 
+.software-skill-inline > i.fa-html5 { color: #E34F26; }
+.software-skill-inline > i.fa-css3-alt { color: #1572B6; }
+.software-skill-inline > i.fa-js { color: #F7DF1E; }
+.software-skill-inline > i.fa-react { color: #61DAFB; }
+.software-skill-inline > i.fa-node { color: #339933; }
+.software-skill-inline > i.fa-npm { color: #CB3837; }
+.software-skill-inline > i.fa-aws { color: #FF9900; }
+.software-skill-inline > i.fa-python { color: #3776AB; }
+.software-skill-inline > i.fa-java { color: #007396; }
+.software-skill-inline > i.fa-docker { color: #2496ED; }
+.software-skill-inline > i.fa-drupal { color: #0678BE; }
+
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
@@ -29,14 +41,12 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
-.software-skill-inline > img {
-  filter: grayscale(100%);
-  opacity: 0.7;
-  transition: filter 0.3s ease, opacity 0.3s ease;
+.software-skill-inline > img[alt="Kafka"] {
+  filter: invert(60%) sepia(5%) saturate(287%) hue-rotate(174deg) brightness(94%) contrast(87%);
+  transition: filter 0.3s ease;
 }
-.software-skill-inline > img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
+.software-skill-inline > img[alt="Kafka"]:hover {
+  filter: none;
 }
 .software-skill-inline > img:hover ~ p {
   color: $skillsColor;

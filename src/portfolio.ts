@@ -112,8 +112,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "Flyway",
+      icon: "https://cdn.simpleicons.org/flyway"
+    },
+    {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Azure",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+    },
+    {
+      skillName: "GCP",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
     },
     {
       skillName: "Python",
@@ -133,7 +145,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Kafka",
-      icon: "https://cdn.simpleicons.org/apachekafka/525252"
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
     },
     {
       skillName: "GraphQL",
