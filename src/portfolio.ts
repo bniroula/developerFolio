@@ -202,6 +202,8 @@ const workExperiences = {
       date: "July 2022 – Present",
       desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
       descBullets: [
+        "Currently delivering end-to-end features (backend & frontend) for a large-scale, multi-tenant state-wide court case management system, engineering high-stakes workflows like judicial case lifecycle management, firearms and marriage license application lifecycle, vital records, etc with real-time integrations with multiple external government systems.",
+        "Contributed to core architectural decisions and system design, helping shape service boundaries, data model, multi-tenancy strategy, and defining how the platform integrates with cross-cutting modules including access & authorization, reporting, tenant management, document management, financial management and workflow orchestration.",
         "Engineered an event-driven notification system enabling user subscriptions to price/inventory changes using AWS Serverless tools (Lambda, SNS, SQS, DynamoDB) and Nodejs (serverless, localstack) increasing the sales by $30 millions in a quarter.",
         "Architected and implemented a Migration service, successfully managing the ETL of millions of data rows across production DynamoDB tables, ensuring zero downtime and enhancing data reliability.",
         "Spearheaded the development of a backend system utilizing AWS serverless tools to seamlessly ingest and process millions of Kafka messages within the booking flow, facilitating the integration of add-on offerings during initial bookings and significantly boosting add-on sales while enhancing system scalability and performance."
