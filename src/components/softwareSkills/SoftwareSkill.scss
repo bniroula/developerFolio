@@ -29,6 +29,15 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+.software-skill-inline > img {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+.software-skill-inline > img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
 .software-skill-inline > img:hover ~ p {
   color: $skillsColor;
 }

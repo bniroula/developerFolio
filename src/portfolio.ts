@@ -2,10 +2,6 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-import kafkaIcon from './assets/images/kafka.png';
-import graphql from './assets/images/graphql.webp';
-import splunk from './assets/images/splunk.png';
-import elasticSearch from './assets/images/elastic_search.png';
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -137,19 +133,19 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Kafka",
-      icon: kafkaIcon
+      icon: "https://cdn.simpleicons.org/apachekafka/525252"
     },
     {
       skillName: "GraphQL",
-      icon: graphql
+      icon: "https://cdn.simpleicons.org/graphql"
     },
     {
       skillName: "Splunk",
-      icon: splunk
+      icon: "https://cdn.simpleicons.org/splunk"
     },
     {
       skillName: "Elasticsearch",
-      icon: elasticSearch
+      icon: "https://cdn.simpleicons.org/elasticsearch"
     }
   ],
   display: true // Set false to hide this section, defaults to true
