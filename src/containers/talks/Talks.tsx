@@ -3,7 +3,7 @@ import React, {useContext} from "react";
 import "./Talks.scss";
 import TalkCard from "../../components/talkCard/TalkCard";
 import {talkSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {
@@ -12,7 +12,7 @@ export default function Talks() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade direction="up" duration={1000} triggerOnce>
       <div className="main" id="talks">
         <div className="talk-header">
           <h1 className="talk-header-title">{talkSection.title}</h1>

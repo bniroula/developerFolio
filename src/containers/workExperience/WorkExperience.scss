@@ -19,6 +19,7 @@
 
 .experience-container > * {
   flex: 1;
+  min-width: 0;
 }
 
 /* Media Query */
@@ -33,5 +34,13 @@
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+  .experience-container {
+    display: block;
+    width: 95%;
+    padding: 20px 0;
+  }
+  .experience-cards-div {
+    grid-template-columns: 1fr;
   }
 }
