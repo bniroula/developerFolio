@@ -24,7 +24,6 @@ const greeting = {
   title: "Hello, I'm Bishal.",
   subTitle: emoji(
     `Hi, I'm Bishal. I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀
-    Most of my bugs are mine to begin with, which I've made peace with. 🐛
     Open to next hard problem!`
   ),
   resumeLink:
@@ -37,7 +36,6 @@ const socialMediaLinks = {
   github: "https://github.com/bniroula",
   linkedin: "https://www.linkedin.com/in/bishal-niroula/",
   gmail: "bishal.nir24@gmail.com",
-  goodreads: "https://www.goodreads.com/user/show/18557797-bishal-niroula",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -50,32 +48,25 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO LOVES TO EXPLORE NEW TECH",
   skills: [
     emoji(
-      "⚡ Develop robust and scalable backend systems"
-    ),
-    emoji("⚡ Enhance and optimize Frontend experience "),
-    emoji(
-      "⚡ Optimize application performance with cutting-edge web technologies"
+      "⚡ Build event-driven systems on AWS serverless (Lambda, SNS, SQS, DynamoDB) that move real revenue"
     ),
     emoji(
-      "⚡ Architect and deploy serverless cloud solutions for high availability"
+      "⚡ Run zero-downtime data migrations across production DynamoDB at millions-of-rows scale"
     ),
     emoji(
-      "⚡ Implement seamless data migration and management strategies"
+      "⚡ Design multi-tenant SaaS architecture with service boundaries, tenant isolation, cross-cutting integrations"
     ),
     emoji(
-      "⚡ Develop event-driven architectures to enhance application responsiveness"
+      "⚡ Ship government and court workflows with real-time integrations to external state systems"
     ),
     emoji(
-      "⚡ Integrate and manage APIs for expansive system interoperability"
+      "⚡ Ingest and process Kafka streams at scale to power booking, notification, and pricing flows"
     ),
     emoji(
-      "⚡ Foster secure software development practices across all phases of the SDLC"
+      "⚡ Design API contracts, data models, and event schemas with versioning, backwards compatibility, and access-pattern-first thinking"
     ),
     emoji(
-      "⚡  Build resilient microservices that communicate efficiently across different platforms"
-    ),
-    emoji(
-      "⚡  Debug like a detective in a mystery where I'm also the culprit"
+      "⚡ Debug like a detective in a mystery where I'm also the culprit"
     )
   ],
 
@@ -84,80 +75,117 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "HTML5",
-      fontAwesomeClassname: "fab fa-html5"
+      category: "Cloud & Infra",
+      items: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+          skillName: "Azure",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+        },
+        {
+          skillName: "GCP",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+        },
+        {
+          skillName: "Terraform",
+          icon: "https://cdn.simpleicons.org/terraform"
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "fab fa-docker"
+        },
+        {
+          skillName: "GitHub Actions",
+          icon: "https://cdn.simpleicons.org/githubactions"
+        }
+      ]
     },
     {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      category: "AI-Assisted Dev",
+      items: [
+        {
+          skillName: "Claude Code",
+          icon: "https://cdn.simpleicons.org/claude"
+        },
+        {
+          skillName: "Kiro",
+          icon: "https://kiro.dev/icon.svg"
+        },
+        {
+          skillName: "GitHub Copilot",
+          icon: "https://cdn.simpleicons.org/githubcopilot"
+        }
+      ]
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      category: "Data & Events",
+      items: [
+        {
+          skillName: "Kafka",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+        },
+        {
+          skillName: "DynamoDB",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg"
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "fas fa-database"
+        },
+        {
+          skillName: "Elasticsearch",
+          icon: "https://cdn.simpleicons.org/elasticsearch"
+        },
+        {
+          skillName: "Flyway",
+          icon: "https://cdn.simpleicons.org/flyway"
+        }
+      ]
     },
     {
-      skillName: "React",
-      fontAwesomeClassname: "fab fa-react"
+      category: "Languages",
+      items: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "fab fa-java"
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "fab fa-python"
+        },
+        {
+          skillName: "TypeScript",
+          icon: "https://cdn.simpleicons.org/typescript"
+        }
+      ]
     },
     {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Flyway",
-      icon: "https://cdn.simpleicons.org/flyway"
-    },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Azure",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
-    },
-    {
-      skillName: "GCP",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "Drupal",
-      fontAwesomeClassname: "fab fa-drupal"
-    },
-    {
-      skillName: "Kafka",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
-    },
-    {
-      skillName: "GraphQL",
-      icon: "https://cdn.simpleicons.org/graphql"
-    },
-    {
-      skillName: "Splunk",
-      icon: "https://cdn.simpleicons.org/splunk"
-    },
-    {
-      skillName: "Elasticsearch",
-      icon: "https://cdn.simpleicons.org/elasticsearch"
+      category: "Frameworks & Tools",
+      items: [
+        {
+          skillName: "React",
+          fontAwesomeClassname: "fab fa-react"
+        },
+        {
+          skillName: "Node.js",
+          fontAwesomeClassname: "fab fa-node"
+        },
+        {
+          skillName: "GraphQL",
+          icon: "https://cdn.simpleicons.org/graphql"
+        },
+        {
+          skillName: "Splunk",
+          icon: "https://cdn.simpleicons.org/splunk"
+        },
+        {
+          skillName: "Drupal",
+          fontAwesomeClassname: "fab fa-drupal"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
