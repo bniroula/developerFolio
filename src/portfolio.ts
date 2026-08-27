@@ -248,14 +248,14 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "July 2022 – Present",
-      desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
+      desc: "Senior Engineer on client engagements",
       descBullets: [
-        "Currently delivering end-to-end features (backend & frontend) for a large-scale, multi-tenant, statewide court case management system.",
-        "Engineered high-stakes workflows including judicial case lifecycle management, firearms and marriage license application lifecycles, and vital records, with real-time integrations to multiple external government systems.",
-        "Contributed to core architectural decisions and system design, helping shape service boundaries, data model, multi-tenancy strategy, and defining how the platform integrates with cross-cutting modules including access & authorization, reporting, tenant management, document management, financial management and workflow orchestration.",
-        "Engineered an event-driven notification system enabling user subscriptions to price/inventory changes using AWS Serverless tools (Lambda, SNS, SQS, DynamoDB) and Node.js (Serverless Framework, LocalStack), increasing sales by $30 million in a quarter.",
-        "Architected and implemented a Migration service, successfully managing the ETL of millions of data rows across production DynamoDB tables, ensuring zero downtime and enhancing data reliability.",
-        "Spearheaded the development of a backend system utilizing AWS serverless tools to seamlessly ingest and process millions of Kafka messages within the booking flow, facilitating the integration of add-on offerings during initial bookings and significantly boosting add-on sales while enhancing system scalability and performance."
+        "Deliver full-stack features (Java, TypeScript, React) for a statewide multi-tenant court case management system serving multiple jurisdictions in production.",
+        "Built judicial case lifecycle, firearms and marriage licensing, and vital records workflows with real-time integrations to external state government systems.",
+        "Helped shape service boundaries and the data model, and defined how the platform integrates with auth, reporting, document management, finance, and workflow orchestration.",
+        "Drove $30M in added quarterly sales by building an event-driven price/inventory subscription system on AWS Lambda, SNS, SQS, and DynamoDB (Node.js, Serverless Framework, LocalStack).",
+        "Migrated millions of rows across production DynamoDB tables with zero downtime via a purpose-built ETL service.",
+        "Processed millions of Kafka messages through an AWS serverless ingestion pipeline that folded add-on offerings into the booking flow, lifting attach rates."
       ]
     },
     {
@@ -263,10 +263,10 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "Feb 2021 – July 2022",
-      desc: "Worked in high velocity consulting teams alongside client engineers to deliver scalable software solutions.",
+      desc: "Embedded with client engineering teams to ship production software under real deadlines.",
       descBullets: [
-        "Collaborated with client engineers from the biggest home improvement store to build a scalable credit card payment system using Microservices Architecture, facilitating secure transaction processing and financial data management, significantly improving payment efficiency.",
-        "Designed and implemented an innovative Identity service ensuring secure storage and encryption of user tokens, with functionalities including token validation, expiration, and prevention of token reuse, enhancing system security and user data protection."
+        "Built a microservices-based credit card payment system with client engineers at the largest US home improvement retailer, handling live transactions.",
+        "Designed the identity service, which handles token encryption and validation, expires tokens on schedule, and blocks reuse."
       ]
     },
     {
@@ -274,10 +274,10 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "June 2020 – Aug 2020",
-      desc: "Worked alongside other interns and full-time engineers using Agile and Scrum methodologies to enhance existing internal website and develop PoC for future developments.",
+      desc: "Internship building features on Slalom's internal PEM site and prototyping a headless CMS setup",
       descBullets:[
-        "Implemented critical front-end features, such as image cropping and edit locking, enhancing the usability of Slalom's PEM website for 13000 internal users.",
-        "Developed a Headless Drupal and React prototype to decouple CMS, improving site performance and flexibility for future development."
+        "Shipped image cropping and edit locking on Slalom's internal PEM site (13,000 users).",
+        "Prototyped a headless Drupal + React architecture to decouple the CMS from the frontend."
       ]
     },
     {
@@ -287,9 +287,9 @@ const workExperiences = {
       date: "Jun 2019 – July 2019",
       desc: "Worked in a team with rotating responsibilities to build a chatbot that serves as the first point of contact for policyholders after an incident.",
       descBullets:[
-        "Designed and deployed a chatbot for filing initial insurance claims, streamlining claim processes and enhancing customer experience through intuitive interactions.",
-        "Leveraged Microsoft's Language Understanding and Sentiment Analysis to refine chatbot interactions, achieving a 50% increase in user engagement and satisfaction.",
-        "Halved the claim filing time through chatbot integration, significantly speeding up the claim initiation process during critical tests."
+        "Built and deployed a claim-intake chatbot serving as the first touchpoint for policyholders after an incident.",
+        "Tuned conversation flow using Microsoft LUIS and sentiment analysis, increasing test-user engagement by 50%.",
+        "Cut claim filing time in half in test scenarios."
       ]
     },
   ]
