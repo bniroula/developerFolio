@@ -26,8 +26,7 @@ const greeting = {
     `I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀
     Open to the next hard problem!`
   ),
-  resumeLink:
-  "https://drive.google.com/file/d/1h7rVy9Y_shmjxkImYBz_CkZZ70Ri7eQM/view", // Set to empty to hide the button
+  resumeLink: "/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
