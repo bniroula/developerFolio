@@ -27,6 +27,7 @@ const greeting = {
     Open to the next hard problem!`
   ),
   resumeLink: "/resume.pdf", // Set to empty to hide the button
+  scheduleLink: "https://cal.com/bishal-niroula/30min", // Cal.com / Calendly URL. Set to empty to hide the button.
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
