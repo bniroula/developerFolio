@@ -23,8 +23,8 @@ const greeting = {
   username: "Bishal Niroula",
   title: "Hello, I'm Bishal.",
   subTitle: emoji(
-    `Hi, I'm Bishal. I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀
-    Open to next hard problem!`
+    `I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀
+    Open to the next hard problem!`
   ),
   resumeLink:
   "https://drive.google.com/file/d/1h7rVy9Y_shmjxkImYBz_CkZZ70Ri7eQM/view", // Set to empty to hide the button
@@ -159,6 +159,10 @@ https://fontawesome.com/icons?d=gallery */
         {
           skillName: "TypeScript",
           icon: "https://cdn.simpleicons.org/typescript"
+        },
+        {
+          skillName: "C#",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
         }
       ]
     },
