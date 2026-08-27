@@ -177,6 +177,14 @@ https://fontawesome.com/icons?d=gallery */
           fontAwesomeClassname: "fab fa-node"
         },
         {
+          skillName: "Spring Boot",
+          icon: "https://cdn.simpleicons.org/spring"
+        },
+        {
+          skillName: "Quarkus",
+          icon: "https://cdn.simpleicons.org/quarkus"
+        },
+        {
           skillName: "GraphQL",
           icon: "https://cdn.simpleicons.org/graphql"
         },
