@@ -263,7 +263,7 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "Feb 2021 – July 2022",
-      desc: "Embedded with client engineering teams to ship production software under real deadlines.",
+      desc: "Embedded with client engineering teams",
       descBullets: [
         "Built a microservices-based credit card payment system with client engineers at the largest US home improvement retailer, handling live transactions.",
         "Designed the identity service, which handles token encryption and validation, expires tokens on schedule, and blocks reuse."
@@ -274,7 +274,7 @@ const workExperiences = {
       company: "Slalom Build",
       companylogo: require("./assets/images/slalom_build.png"),
       date: "June 2020 – Aug 2020",
-      desc: "Internship building features on Slalom's internal PEM site and prototyping a headless CMS setup",
+      desc: "Internship building features and prototypes",
       descBullets:[
         "Shipped image cropping and edit locking on Slalom's internal PEM site (13,000 users).",
         "Prototyped a headless Drupal + React architecture to decouple the CMS from the frontend."
@@ -285,7 +285,7 @@ const workExperiences = {
       company: "Alfa Insurance",
       companylogo: require("./assets/images/Insurance-alfa.png"),
       date: "Jun 2019 – July 2019",
-      desc: "Worked in a team with rotating responsibilities to build a chatbot that serves as the first point of contact for policyholders after an incident.",
+      desc: "Internship building a chatbot",
       descBullets:[
         "Built and deployed a claim-intake chatbot serving as the first touchpoint for policyholders after an incident.",
         "Tuned conversation flow using Microsoft LUIS and sentiment analysis, increasing test-user engagement by 50%.",
