@@ -251,12 +251,12 @@ const workExperiences = {
       date: "July 2022 – Present",
       desc: "Senior Engineer on client engagements",
       descBullets: [
-        "Deliver full-stack features (Java, TypeScript, React) for a statewide multi-tenant court case management system serving multiple jurisdictions in production.",
+        "Scope, plan, and ship full-stack features (Java, TypeScript, React) on a statewide multi-tenant court case management system live across multiple jurisdictions — from refinement and estimation through production release.",
         "Built judicial case lifecycle, firearms and marriage licensing, and vital records workflows with real-time integrations to external state government systems.",
         "Helped shape service boundaries and the data model, and defined how the platform integrates with auth, reporting, document management, finance, and workflow orchestration.",
-        "Drove $30M in added quarterly sales by building an event-driven price/inventory subscription system on AWS Lambda, SNS, SQS, and DynamoDB (Node.js, Serverless Framework, LocalStack).",
-        "Migrated millions of rows across production DynamoDB tables with zero downtime via a purpose-built ETL service.",
-        "Processed millions of Kafka messages through an AWS serverless ingestion pipeline that folded add-on offerings into the booking flow, lifting attach rates."
+        "Built an event-driven price/inventory subscription system with the team on AWS Lambda, SNS, SQS, and DynamoDB, lifting bookings by 6% and adding $30M in quarterly revenue.",
+        "Designed and built a serverless migration service that transformed millions of production DynamoDB records into a new table with zero downtime, unblocking a feature that required a new access pattern.",
+        "Built a Kafka ingestion pipeline with the team on AWS serverless components that processed millions of messages per day, enabling add-on offerings to be folded into the booking flow and lifting attach rates by 13%."
       ]
     },
     {
