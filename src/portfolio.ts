@@ -246,7 +246,7 @@ const workExperiences = {
   experience: [
     {
       role: "Senior Software Engineer",
-      company: "Slalom Build",
+      company: "Slalom",
       companylogo: require("./assets/images/slalom.png"),
       date: "July 2022 – Present",
       desc: "Senior Engineer on client engagements",
@@ -261,7 +261,7 @@ const workExperiences = {
     },
     {
       role: "Software Engineer",
-      company: "Slalom Build",
+      company: "Slalom",
       companylogo: require("./assets/images/slalom.png"),
       date: "Feb 2021 – July 2022",
       desc: "Embedded with client engineering teams",
@@ -272,7 +272,7 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
-      company: "Slalom Build",
+      company: "Slalom",
       companylogo: require("./assets/images/slalom.png"),
       date: "June 2020 – Aug 2020",
       desc: "Internship building features and prototypes",
