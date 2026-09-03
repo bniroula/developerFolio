@@ -23,9 +23,15 @@ const greeting = {
   username: "Bishal Niroula",
   title: "Hello, I'm Bishal.",
   subTitle: emoji(
-    `I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀
-    Open to the next hard problem!`
+    "I work full-stack on software that carries real weight, from serverless systems moving eight-figure revenue to court and government workflows people depend on. 🚀"
   ),
+  // Rendered as a GitHub-style diffstat badge beside this line (see Greeting.tsx)
+  subTitlePR: {
+    text: "My best PRs have a negative diff.",
+    additions: 87,
+    deletions: 653
+  },
+  subTitleClosing: "Open to the next hard problem!",
   resumeLink: "/resume.pdf", // Set to empty to hide the button
   scheduleLink: "https://cal.com/bishal-niroula/30min", // Cal.com / Calendly URL. Set to empty to hide the button.
   displayGreeting: true // Set false to hide this section, defaults to true

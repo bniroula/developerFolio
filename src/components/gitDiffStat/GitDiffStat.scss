@@ -1,0 +1,76 @@
+// GitHub-style diffstat badge.
+// Colors mirror GitHub's Primer palette (light + dark).
+
+.git-diffstat {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  vertical-align: middle;
+  margin: 0 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+
+  &__add {
+    color: #1a7f37; // Primer fg.success (light)
+  }
+
+  &__del {
+    color: #cf222e; // Primer fg.danger (light)
+  }
+
+  &__bar {
+    display: inline-flex;
+    gap: 2px;
+  }
+
+  &__block {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    // Subtle inner border like GitHub's squares
+    box-shadow: inset 0 0 0 1px rgba(27, 31, 36, 0.06);
+
+    &--add {
+      background-color: #2da44e; // success.emphasis (light)
+    }
+
+    &--del {
+      background-color: #cf222e; // danger.emphasis (light)
+    }
+
+    &--neutral {
+      background-color: #d0d7de; // neutral.muted (light)
+    }
+  }
+}
+
+// Dark mode (Greeting wraps the subtitle in a .dark-mode element)
+.dark-mode .git-diffstat {
+  &__add {
+    color: #3fb950; // fg.success (dark)
+  }
+
+  &__del {
+    color: #f85149; // fg.danger (dark)
+  }
+
+  .git-diffstat__block {
+    box-shadow: inset 0 0 0 1px rgba(240, 246, 252, 0.1);
+
+    &--add {
+      background-color: #238636; // success.emphasis (dark)
+    }
+
+    &--del {
+      background-color: #da3633; // danger.emphasis (dark)
+    }
+
+    &--neutral {
+      background-color: #30363d; // neutral.muted (dark)
+    }
+  }
+}

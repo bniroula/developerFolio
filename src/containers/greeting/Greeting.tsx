@@ -7,6 +7,7 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import GitDiffStat from "../../components/gitDiffStat/GitDiffStat";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -37,6 +38,14 @@ export default function Greeting() {
                 }
               >
                 {greeting.subTitle}
+                <br />
+                {greeting.subTitlePR.text}{" "}
+                <GitDiffStat
+                  additions={greeting.subTitlePR.additions}
+                  deletions={greeting.subTitlePR.deletions}
+                />
+                <br />
+                {greeting.subTitleClosing}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
